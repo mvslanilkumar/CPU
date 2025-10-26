@@ -1,0 +1,77 @@
+{
+    "lastUpdated": "2023-10-26",
+    "cpus": [
+        {
+            "name": "Intel Core i9-13900K",
+            "brand": "Intel",
+            "socket": "LGA 1700",
+            "cores": 24,
+            "threads": 32,
+            "baseClock": "3.0 GHz",
+            "boostClock": "5.8 GHz",
+            "tdp": 125,
+            "integratedGraphics": true,
+            "releaseYear": 2022
+        },
+        {
+            "name": "AMD Ryzen 9 7950X",
+            "brand": "AMD",
+            "socket": "AM5",
+            "cores": 16,
+            "threads": 32,
+            "baseClock": "4.5 GHz",
+            "boostClock": "5.7 GHz",
+            "tdp": 170,
+            "integratedGraphics": false,
+            "releaseYear": 2022
+        },
+        {
+            "name": "Intel Core i5-13600K",
+            "brand": "Intel",
+            "socket": "LGA 1700",
+            "cores": 14,
+            "threads": 20,
+            "baseClock": "3.5 GHz",
+            "boostClock": "5.1 GHz",
+            "tdp": 125,
+            "integratedGraphics": true,
+            "releaseYear": 2022
+        },
+        {
+            "name": "AMD Ryzen 7 7700X",
+            "brand": "AMD",
+            "socket": "AM5",
+            "cores": 8,
+            "threads": 16,
+            "baseClock": "4.5 GHz",
+            "boostClock": "5.4 GHz",
+            "tdp": 105,
+            "integratedGraphics": true,
+            "releaseYear": 2022
+        },
+        {
+            "name": "Intel Core i7-13700K",
+            "brand": "Intel",
+            "socket": "LGA 1700",
+            "cores": 16,
+            "threads": 24,
+            "baseClock": "3.4 GHz",
+            "boostClock": "5.4 GHz",
+            "tdp": 125,
+            "integratedGraphics": true,
+            "releaseYear": 2022
+        },
+        {
+            "name": "AMD Ryzen 5 7600X",
+            "brand": "AMD",
+            "socket": "AM5",
+            "cores": 6,
+            "threads": 12,
+            "baseClock": "4.7 GHz",
+            "boostClock": "5.3 GHz",
+            "tdp": 105,
+            "integratedGraphics": true,
+            "releaseYear": 2022
+        }
+    ]
+}
