@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Compatibility Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CPU Compatibility Database</h1>
+        <p>Find compatible CPUs with detailed specifications</p>
+    </header>
+    <main>
+        <section id="search-section">
+            <input type="text" id="search-input" placeholder="Search CPUs by name, socket, or brand...">
+            <button id="search-button">Search</button>
+        </section>
+        <section id="filters">
+            <label for="brand-filter">Brand:</label>
+            <select id="brand-filter">
+                <option value="">All</option>
+                <option value="Intel">Intel</option>
+                <option value="AMD">AMD</option>
+            </select>
+            <label for="socket-filter">Socket:</label>
+            <select id="socket-filter">
+                <option value="">All</option>
+            </select>
+        </section>
+        <section id="cpu-list">
+            <!-- CPU items will be populated here -->
+        </section>
+    </main>
+    <footer>
+        <p>Database last updated: <span id="last-updated">N/A</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
